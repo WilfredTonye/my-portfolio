@@ -2,3 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer base {
+  .link {
+    @apply text-info hover:text-secondary hover:transition duration-[.2s];
+  }
+
+  .btn {
+    @apply bg-primary text-white hover:bg-secondary hover:transition duration-[.2s] border-none p-2 rounded-lg;
+  }
+
+  .social-link {
+    @apply text-white hover:text-primary hover:transition duration-[.2s];
+  }
+}

@@ -15,6 +15,13 @@ export default {
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
       },
+      fontSize: {
+        normal: '20px',
+        small: '18px',
+        large: '31px',
+        subtitle:'50px',
+        title: '80px',
+      }
     },
   },
   plugins: [],

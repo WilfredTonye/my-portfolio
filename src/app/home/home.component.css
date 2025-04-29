@@ -1,0 +1,6 @@
+header {
+  background: url('../../../public/img/Background.jpeg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
